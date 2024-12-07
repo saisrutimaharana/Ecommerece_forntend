@@ -1,0 +1,189 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    min-height: 100vh;
+}
+
+
+.no-notification{
+    width: 50%;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: auto;
+    align-items: center;
+}
+.no-notification>img{
+    height: 120px;
+    width: 200px;
+}
+.no-notification>h4{
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #5d5801;
+    text-align: center;
+}
+
+.no-notification>p{
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    color: #555;
+    text-align: center;
+}
+.no-notification>button{
+    height: 40px;
+    width: 150px;
+    background-color: #b7a201;
+    box-shadow: 1px 1px 2px #000000bd;;
+    border: none;
+    border-radius: 5px;
+}
+.no-notification>button>a{
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: white;
+}
+/* Notifications Container */
+.notifications-container {
+    background-color: #fff;
+    padding: 30px;
+    max-width: 1150px;
+    width: 100%;
+    margin: 5% auto;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading */
+.notifications-container h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center;
+}
+
+/* Notification Block */
+.notification {
+    background-color: #fafafa;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    border-left: 5px solid #3498db;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+.notification h2 {
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+    color: #3498db;
+}
+
+.notification p {
+    font-size: 1rem;
+    color: #555;
+}
+
+.notification a {
+    color: #3498db;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.notification a:hover {
+    text-decoration: underline;
+}
+
+/* Notification Date */
+.notification-date {
+    display: block;
+    text-align: right;
+    font-size: 0.9rem;
+    color: #777;
+    margin-top: 10px;
+}
+
+/* Specific Styles for Different Notification Types */
+.notification.order {
+    border-left-color: #27ae60;
+}
+
+.notification.offer {
+    border-left-color: #f39c12;
+}
+
+.notification.promotion {
+    border-left-color: #8e44ad;
+}
+
+.notification.general {
+    border-left-color: #e74c3c;
+}
+
+
+footer{
+    height: 100%;
+    width: 95vw;
+    margin-left: 30px;
+    background-color:rgb(245, 247, 247);
+}
+footer>.main{
+    display: flex;
+    justify-content:space-around ;
+    color: rgb(152, 151, 151);
+    margin-left:210px ;
+    margin-right: 210px;
+}
+.footer>ul{
+    list-style: none;
+    padding: 20px;
+}
+.footer>ul>li{
+   
+    margin-bottom: 12px;
+    font-size: 12px;
+     
+}
+.footer>ul>li>h5{
+    font-size: 14px;
+    color: grey;
+    font-weight: 600;
+}
+hr{
+    width: 80%;
+    margin-top: 10px;
+   margin-left:10%;
+}
+.f-line>p{
+    margin-left: 465px;
+    font-size: 0.8em;
+    color: rgb(148, 148, 148);
+   
+}
+.footer-menu>ol{
+  list-style: none;
+  margin-left:250px ;
+  margin-right: 150px;
+  font-size: 0.8em;
+  color: rgb(148, 148, 148);
+}
+.footer-menu>ol>li{
+    display: inline;
+    padding-left: 30px;
+}
+.footer-menu{
+    margin-left: 10px;
+}
+.paragraph{
+    margin-left:210px ;
+    margin-right: 210px;
+    font-size: 0.9em;
+}

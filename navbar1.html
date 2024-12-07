@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>M</title>
+
+
+  <link rel="stylesheet" href="./navbar1.css">
+</head>
+
+<body>
+  <div class="container-fluid">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top" style="height: 70px ;padding:0px 30px;">
+      <div class="navbar-brand">
+        <div class="logo">
+          <img src="./assets//No Background 1.png" width="80" alt="" style="padding-top: 10px;">
+        </div>
+      </div>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+        aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Multi</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+
+
+        <div class="offcanvas-body">
+          <form class="d-flex align-items-center" style="width: 370px;" role="search">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search"
+              viewBox="0 0 16 16" style="margin-left: 25px;">
+              <path
+                d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0" />
+            </svg>
+            <input class="form-control me-2 p-6" type="text" placeholder="Search" aria-label="Search" style="margin-left: -20px;background-color: transparent;padding-left: 50px;">
+          </form>
+
+
+          <ul class="d-flex align-items-center navbar-nav justify-content-around flex-grow-1">
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"
+                style="color: black;">
+                Download App
+              </a>
+              <ul class="dropdown-menu active">
+                <li><a class="dropdown-item active" style="background-color: white; color: black;" href="#">Download
+                    Form</a></li>
+                <li><a class="dropdown-item" style="background-color: white; color: black;" href="#">Android</a>
+                </li>
+                <li><a class="dropdown-item" style="background-color: white; color: black;" href="#">multi</a>
+                </li>
+              </ul>
+            </li>
+
+            <li class="nav-item text-center">
+              <a class="nav-link" aria-current="page" href="./addtocard.html">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-cart"
+                  viewBox="0 0 16 16">
+                  <path
+                    d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l1.313 7h8.17l1.313-7zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2" />
+                </svg>
+                <h6>Cart</h6>
+              </a>
+            </li>
+
+            <li class="nav-item text-center">
+              <a class="nav-link" aria-current="page" href="./profile.html">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                  class="bi bi-person-circle" viewBox="0 0 16 16">
+                  <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0" />
+                  <path fill-rule="evenodd"
+                    d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1" />
+                </svg>
+                <h6>Profile</h6>
+              </a>
+            </li>
+
+            <li class="nav-item text-center">
+              <a class="nav-link" aria-current="page" href="./notification.html">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                  class="bi bi-app-indicator" viewBox="0 0 16 16">
+                  <path
+                    d="M5.5 2A3.5 3.5 0 0 0 2 5.5v5A3.5 3.5 0 0 0 5.5 14h5a3.5 3.5 0 0 0 3.5-3.5V8a.5.5 0 0 1 1 0v2.5a4.5 4.5 0 0 1-4.5 4.5h-5A4.5 4.5 0 0 1 1 10.5v-5A4.5 4.5 0 0 1 5.5 1H8a.5.5 0 0 1 0 1z" />
+                  <path d="M16 3a3 3 0 1 1-6 0 3 3 0 0 1 6 0" />
+                </svg>
+                <h6>Notification</h6>
+              </a>
+            </li>
+
+            <li class="nav-item text-center">
+              <a class="nav-link" aria-current="page" href="./wishlist.html">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                  class="bi bi-suit-heart" viewBox="0 0 16 16">
+                  <path
+                    d="m8 6.236-.894-1.789c-.222-.443-.607-1.08-1.152-1.595C5.418 2.345 4.776 2 4 2 2.324 2 1 3.326 1 4.92c0 1.211.554 2.066 1.868 3.37.337.334.721.695 1.146 1.093C5.122 10.423 6.5 11.717 8 13.447c1.5-1.73 2.878-3.024 3.986-4.064.425-.398.81-.76 1.146-1.093C14.446 6.986 15 6.131 15 4.92 15 3.326 13.676 2 12 2c-.777 0-1.418.345-1.954.852-.545.515-.93 1.152-1.152 1.595zm.392 8.292a.513.513 0 0 1-.784 0c-1.601-1.902-3.05-3.262-4.243-4.381C1.3 8.208 0 6.989 0 4.92 0 2.755 1.79 1 4 1c1.6 0 2.719 1.05 3.404 2.008.26.365.458.716.596.992a7.6 7.6 0 0 1 .596-.992C9.281 2.049 10.4 1 12 1c2.21 0 4 1.755 4 3.92 0 2.069-1.3 3.288-3.365 5.227-1.193 1.12-2.642 2.48-4.243 4.38z" />
+                </svg>
+                <h6>Wishlist</h6>
+              </a>
+            </li>
+            <li class="nav-item text-center">
+              <a class="nav-link" aria-current="page" href="./signup.html">Sign up</a>
+            </li>
+            <li class="nav-item text-center">
+              <a class="nav-link" aria-current="page" href="./signin.html">Sign in</a>
+            </li>
+          </ul>
+
+        </div>
+
+    </nav>
+  </div>
+
+  <nav class="navbar2">
+    <ul class="nav-menu">
+      <li class="nav-item">
+        <a href="./womenethenic.html" class="drop-btn">Women Ethnic</a>
+        <div class="dropdown-content">
+          <div class="dropdown-column">
+            <h3>Boys & Girls 2+ Years</h3>
+            <a href="#">Dresses</a>
+          </div>
+          <div class="dropdown-column">
+            <h3>Infant 0-2 Years</h3>
+            <a href="#">Rompers</a>
+          </div>
+          <div class="dropdown-column">
+            <h3>Toys & Accessories</h3>
+            <a href="#">Soft Toys</a>
+            <a href="#">Footwear</a>
+            <a href="#">Stationery</a>
+            <a href="#">Watches</a>
+            <a href="#">Bags & Backpacks</a>
+          </div>
+          <div class="dropdown-column">
+            <h3>Baby Care</h3>
+            <a href="#">All Baby Care</a>
+          </div>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a href="./womenwestern.html" class="drop-btn">Women Western</a>
+        <div class="dropdown-content">
+          <div class="dropdown-column">
+            <h3>Boys & Girls 2+ Years</h3>
+            <a href="#">Dresses</a>
+          </div>
+          <div class="dropdown-column">
+            <h3>Infant 0-2 Years</h3>
+            <a href="#">Rompers</a>
+          </div>
+          <div class="dropdown-column">
+            <h3>Toys & Accessories</h3>
+            <a href="#">Soft Toys</a>
+            <a href="#">Footwear</a>
+            <a href="#">Stationery</a>
+            <a href="#">Watches</a>
+            <a href="#">Bags & Backpacks</a>
+          </div>
+          <div class="dropdown-column">
+            <h3>Baby Care</h3>
+            <a href="#">All Baby Care</a>
+          </div>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a href="./men.html" class="drop-btn">Men</a>
+        <div class="dropdown-content">
+          <div class="dropdown-column">
+            <h3>Boys & Girls 2+ Years</h3>
+            <a href="#">Dresses</a>
+          </div>
+          <div class="dropdown-column">
+            <h3>Infant 0-2 Years</h3>
+            <a href="#">Rompers</a>
+          </div>
+          <div class="dropdown-column">
+            <h3>Toys & Accessories</h3>
+            <a href="#">Soft Toys</a>
+            <a href="#">Footwear</a>
+            <a href="#">Stationery</a>
+            <a href="#">Watches</a>
+            <a href="#">Bags & Backpacks</a>
+          </div>
+          <div class="dropdown-column">
+            <h3>Baby Care</h3>
+            <a href="#">All Baby Care</a>
+          </div>
+        </div>
+      </li>
+      <li class="nav-item dropdown">
+        <a href="./kids.html" class="drop-btn">Kids</a>
+        <div class="dropdown-content">
+          <div class="dropdown-column">
+            <h3>Boys & Girls 2+ Years</h3>
+            <a href="#">Dresses</a>
+          </div>
+          <div class="dropdown-column">
+            <h3>Infant 0-2 Years</h3>
+            <a href="#">Rompers</a>
+          </div>
+          <div class="dropdown-column">
+            <h3>Toys & Accessories</h3>
+            <a href="#">Soft Toys</a>
+            <a href="#">Footwear</a>
+            <a href="#">Stationery</a>
+            <a href="#">Watches</a>
+            <a href="#">Bags & Backpacks</a>
+          </div>
+          <div class="dropdown-column">
+            <h3>Baby Care</h3>
+            <a href="#">All Baby Care</a>
+          </div>
+        </div>
+      </li>
+
+      <li class="nav-item">
+        <a href="./home.html" class="drop-btn">Home & Kitchen</a>
+        <div class="dropdown-content">
+          <div class="dropdown-column">
+            <h3>Boys & Girls 2+ Years</h3>
+            <a href="#">Dresses</a>
+          </div>
+          <div class="dropdown-column">
+            <h3>Infant 0-2 Years</h3>
+            <a href="#">Rompers</a>
+          </div>
+          <div class="dropdown-column">
+            <h3>Toys & Accessories</h3>
+            <a href="#">Soft Toys</a>
+            <a href="#">Footwear</a>
+            <a href="#">Stationery</a>
+            <a href="#">Watches</a>
+            <a href="#">Bags & Backpacks</a>
+          </div>
+          <div class="dropdown-column">
+            <h3>Baby Care</h3>
+            <a href="#">All Baby Care</a>
+          </div>
+        </div>
+
+      </li>
+      <li class="nav-item">
+        <a href="./beauty.html" class="drop-btn">Beauty & Health</a>
+        <div class="dropdown-content">
+          <div class="dropdown-column">
+            <h3>Boys & Girls 2+ Years</h3>
+            <a href="#">Dresses</a>
+          </div>
+          <div class="dropdown-column">
+            <h3>Infant 0-2 Years</h3>
+            <a href="#">Rompers</a>
+          </div>
+          <div class="dropdown-column">
+            <h3>Toys & Accessories</h3>
+            <a href="#">Soft Toys</a>
+            <a href="#">Footwear</a>
+            <a href="#">Stationery</a>
+            <a href="#">Watches</a>
+            <a href="#">Bags & Backpacks</a>
+          </div>
+          <div class="dropdown-column">
+            <h3>Baby Care</h3>
+            <a href="#">All Baby Care</a>
+          </div>
+        </div>
+      </li>
+    </ul>
+    <a href="./aboutus.html">About us</a>
+    <a href="./contact.html">contact Us</a>
+  </nav>
+
+
+  
+</body>
+
+</html>
